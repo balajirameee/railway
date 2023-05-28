@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    background-image: url("../railway/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(248, 17, 198);
+
+}
+section{ 
+    width: 100%;
+    height: 100px;
+}
+section nav{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color:aliceblue;
+    box-shadow: 0 0 30px;
+    z-index: 1000;
+}
+section nav ul{
+    list-style: none;
+
+}
+section nav{
+    background-image: url(images.jpg);
+    width: 1500px;
+    height: 50px;
+    background-repeat:no-repeat;
+}
+section nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+section nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+section nav ul li a::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    background-color:yellow;
+    display: block;
+    transition: 0.2s linear;
+}
+section nav ul li a:hover::after{
+    width: 80px;
+}
+section nav ul li a:hover{
+    color: rgb(240, 13, 191);
+}
+.main_text{
+    margin-top: -600px; 
+    font-size: 50px;
+    font-style:italic;
+    
+    
+}
+.main_text .g{
+display: block;
+color: firebrick;
+
+}
+.main_text .r{
+    display: block;
+    color: deeppink;
+}
+
+.main_text .i{
+    display: block;
+    color:salmon;
+}
+.main-container{
+    position:absolute;
+    right: 350px;
+    top: 450px;
+}
+
+.main-container .container-0 h3{
+    
+    background-color: aqua;
+    color:blueviolet;
+    height: 40px;
+    text-align: center;
+    margin-right: 700px;
+    
+}
+
+
+
+
+/*section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 130px;
+}
+section .main .men_text h1{
+    font-size: 60px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}*/
+/*body
+{
+   background-image: url(homepage..jpg); 
+   background-repeat: no-repeat;
+   width: 1478px;
+   height: 1478px; 
+}*/
+
+    
+
+
+

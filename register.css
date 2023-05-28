@@ -1,0 +1,399 @@
+/*.container{ 
+
+  color: #0ce74e;
+  
+  
+  
+}
+#fr{
+  font-size: 30px;
+  color: red;
+
+}
+.fro{
+  width: 300px;
+  height: 30px;
+  background-color: rgb(161, 127, 255);
+  color: rgb(157, 165, 42);
+  font-size: 20px;
+}
+#to{
+  font-size: 30px;
+  color: red;  
+}
+.to{
+  width: 300px;
+  height: 30px;
+  background-color: rgb(161, 127, 255);
+}
+.sur{
+  font-size: 30px;
+  color: red;
+}
+.sur input{
+  width: 300px;
+  height: 30px;
+  background-color: rgb(161, 127, 255);
+}
+.name
+{
+  font-size: 25px;
+  color: rgb(251, 8, 8);
+}
+.name input{
+  width: 300px;
+  height: 30px;
+  background:  rgb(161, 127, 255);
+}
+
+ .container .tab{
+  font-style: italic;
+  height: 20em;
+  width: 20em;
+  position: absolute;
+  left: 500px;
+
+  
+}
+.image{
+    
+  height: 1px;
+  width: 900px;  
+}
+
+.head h1{
+    color:blueviolet;
+background-color: forestgreen;
+}
+.ho1 h1{
+     
+    color:darkorange;
+}
+.submit{
+width: 100px;
+height: 30px;
+background-color: blue;
+color: azure;
+
+}
+.reset{
+  width: 100px;
+height: 30px;
+background-color: rgb(255, 51, 0);
+color: azure;
+}*/
+
+/*
+form {
+text-align: center;
+}
+  label{
+ 
+  background-color:red;
+  color: aliceblue;
+  height:10px;
+  padding: 4px;
+}
+.form input{
+  width: 200px;
+  height: 20px;
+}
+
+::placeholder{
+  color: brown;
+  
+}
+form .to{
+  position:relative;
+  margin-left:- 300px;
+  bottom: 25px;
+}
+form .age{
+  position:relative;
+  left: 300px;
+  bottom: 30px;
+}
+form .pan{
+  position:relative;
+  left: 310px;
+  bottom: 30px;
+}
+form .date{
+  position:relative;
+  left: 300px;
+  bottom: 40px;
+}
+form .submit{
+  
+  position:relative;
+  right: 300px;
+}
+.submit input{
+  width: 100px;
+height: 30px;
+background-color: blue;
+color: azure;
+
+}
+.reset input{
+  width: 100px;
+height: 30px;
+background-color:orange;
+color:black;
+position: relative;
+bottom: 30px;
+right: 80px;
+}
+ .button{
+  width: 100px;
+height: 25px;
+background-color:rebeccapurple;
+text-align: center;
+color:white;
+position: relative;
+bottom: 30px;
+right: 190px;
+cursor: pointer;
+
+}*/
+body{
+  background-image: url(tr.png.jpg);
+}
+h1{
+  font-family: fantasy;
+  text-align:center;
+  
+  font-size: 30px;
+  background-color: aqua;
+  color: darkblue;
+  border-radius:30px ;
+
+}
+h2{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  background-color:darkorange;
+  width: 500px;
+  text-align:center;
+ color:deeppink;
+position:relative;
+left: 550px;
+border-radius: 5px;
+
+}
+h3{
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  background-color:rgb(255, 0, 157);
+  width: 500px;
+  text-align:center;
+ color:rgb(240, 236, 238);
+ position: relative;
+ left: 300px;
+ border-radius:50px;
+}
+form{
+  border: 10px solid red;
+  width: 1000px;
+  height: 600px;
+  margin-left: 250px;
+  border-radius: 20px;
+  background-color: rgb(165, 143, 108);
+  
+}
+.from{
+  padding:50px 0px 0px 30px ;
+}
+.from label{
+  background-color: red;
+  color: aliceblue;
+  font-size:20px;
+  margin-top: 100px;
+
+}
+ .from input{
+  margin-left: 70px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid blueviolet;
+  background-color: rgb(169, 169, 169);
+  color: black;
+  border-radius: 15px;
+}
+.to{
+  position: absolute;
+  left: 700px;
+  margin-top: -70px;
+
+}
+
+.to label{
+  background-color: red;
+  color: rgba(240, 248, 255, 0.815);
+  font-size:20px;
+  margin-top: 100px;
+
+}
+.to input{
+  margin-left: 65px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid blueviolet;
+  background-color: darkgray;
+  color: black;
+  border-radius: 15px;
+}
+.name{
+ margin-top:-50px ;
+ margin-left: 25px;
+}
+.name label{
+  background-color: red;
+  color: aliceblue;
+  font-size:20px;
+  margin-top: 100px;
+
+}
+ .name input{
+  margin-left: 70px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid blueviolet;
+  background-color: rgb(169, 169, 169);
+  color: black;
+  border-radius: 15px;
+}
+.age{
+  position: absolute;
+  left: 700px;
+  margin-top: -70px;
+
+}
+
+.age label{
+  background-color: red;
+  color: rgba(240, 248, 255, 0.815);
+  font-size:20px;
+  margin-top: 100px;
+
+}
+.age input{
+  margin-left: 50px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid blueviolet;
+  background-color: darkgray;
+  color: black;
+  border-radius: 15px;
+}
+.adhaar{
+  margin-top:-50px ;
+  margin-left: 25px;
+ }
+ .adhaar label{
+   background-color: red;
+   color: aliceblue;
+   font-size:20px;
+   margin-top: 100px;
+ 
+ }
+  .adhaar input{
+   margin-left: 10px;
+   width: 200px;
+   height: 40px;
+   border: 2px solid blueviolet;
+   background-color: rgb(169, 169, 169);
+   color: black;
+   border-radius: 15px;
+ }
+ .pan{
+  position: absolute;
+  left: 700px;
+  margin-top: -20px;
+
+}
+
+.pan label{
+  background-color: red;
+  color: rgba(240, 248, 255, 0.815);
+  font-size:20px;
+  margin-top: 100px;
+
+}
+.pan input{
+  margin-left: 25px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid blueviolet;
+  background-color: darkgray;
+  color: black;
+  border-radius: 15px;
+}
+.seat{
+  padding:50px 0px 0px 30px ;
+}
+.seat label{
+  background-color: red;
+  color: aliceblue;
+  font-size:20px;
+  margin-top: 100px;
+
+}
+ .seat input{
+  margin-left: 50px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid blueviolet;
+  background-color: rgb(169, 169, 169);
+  color: black;
+  border-radius: 15px;
+}
+.date{
+  position: absolute;
+  left: 700px;
+  margin-top: -50px;
+
+}
+
+.date label{
+  background-color: red;
+  color: rgba(240, 248, 255, 0.815);
+  font-size:20px;
+  margin-top: 100px;
+
+}
+.date input{
+  margin-left: 50px;
+  margin-top: -30px;
+  width: 200px;
+  height: 40px;
+  border: 2px solid blueviolet;
+  background-color: darkgray;
+  color: black;
+  border-radius: 15px;
+}
+.submit{
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  margin-left:200px;
+  margin-top: 50px;
+}
+.reset{
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(12, 24, 18);
+  color: white;
+  margin-left:300px;
+}
+.button{
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(255, 85, 0);
+  color: white;
+  margin-left:400px;
+}
